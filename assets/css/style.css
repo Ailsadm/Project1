@@ -1,11 +1,22 @@
 * {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 241, 227) ;
+
+}
 .hero, .playAgainOutcome{
   color: rgb(10, 10, 129);
   background-color: rgba(65, 64, 53, 0.315);
   font-style: italic;
   font-weight: 900;
+}
+.question-container{
+  background-color: rgb(243, 241, 227) ;
+
 }
 
 .btn {
@@ -49,12 +60,7 @@
   border: none;
 }
 
-@media screen and (max-width: 525px) {
-  body {
-    background-color: blueviolet;
-  }
+#playAgainButton{
+  background-color: #5bc4f5;
 
-  #score {
-    color: white;
-  }
 }
